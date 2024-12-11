@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.quantom"
-    compileSdk = 34
+    compileSdk = 35
     buildFeatures {
         compose = true
     }
