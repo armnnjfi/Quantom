@@ -40,7 +40,7 @@ android {
         jvmTarget = "1.8"
     }
 }
-
+//.
 dependencies {
 //This dependency integrates Jetpack Compose with the Activity class, enabling the use of Compose in Android activities.
     implementation(libs.androidx.activity.compose)
