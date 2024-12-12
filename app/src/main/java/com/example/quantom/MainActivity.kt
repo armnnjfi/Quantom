@@ -3,8 +3,10 @@ package com.example.quantom
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.example.quantom.fragments.CategoryFragment
 import com.example.quantom.fragments.HomeFragment
 import com.example.quantom.fragments.ProfileFragment
+import com.example.quantom.fragments.TaskFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -37,6 +39,18 @@ class MainActivity : AppCompatActivity() {
                 R.id.action_profile -> {
                     var transaction = supportFragmentManager.beginTransaction()
                     transaction.replace(R.id.content_frame, ProfileFragment())
+                    transaction.commit()
+                    true
+                }
+                R.id.action_task -> {
+                    var transaction = supportFragmentManager.beginTransaction()
+                    transaction.replace(R.id.content_frame, TaskFragment())
+                    transaction.commit()
+                    true
+                }
+                R.id.action_search -> {
+                    var transaction = supportFragmentManager.beginTransaction()
+                    transaction.replace(R.id.content_frame, CategoryFragment())
                     transaction.commit()
                     true
                 }
