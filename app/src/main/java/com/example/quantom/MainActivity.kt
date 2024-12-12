@@ -1,4 +1,4 @@
-package com.example.myproject
+package com.example.quantom
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
