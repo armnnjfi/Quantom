@@ -23,10 +23,12 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.bumptech.glide.integration.compose.ExperimentalGlideComposeApi
 import com.bumptech.glide.integration.compose.GlideImage
+import com.example.quantom.R
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -49,9 +51,9 @@ fun TopSlider(
     Column {
         val images = listOf(
             "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ABNnvjDbp7BCBRqFwC7rSQHaFK%26pid%3DApi&f=1&ipt=3ed341074aac836b760452a613ad4d0472cf6c85dbb4da98b3c83fa3b37fab2f&ipo=images",
-            "https://7207-37-32-24-170.ngrok-free.app/get_photo/tttt.jpg",
-            "https://7207-37-32-24-170.ngrok-free.app/get_photo/tttt.jpg",
-            "https://7207-37-32-24-170.ngrok-free.app/get_photo/tttt.png"
+            stringResource(R.string.ngrok_address) + "tttt.jpg",
+            stringResource(R.string.ngrok_address) + "test1.jpg",
+            stringResource(R.string.ngrok_address) + "tttt.png"
         )
 
         ImageSlider(images)
