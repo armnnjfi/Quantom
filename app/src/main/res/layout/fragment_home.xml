@@ -5,12 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".fragments.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- TextView for demonstration -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:text="Home Fragment"
-        android:textSize="26dp"
-        android:gravity="center"/>
+        android:textSize="26sp"
+        android:gravity="center"
+        android:layout_gravity="top" />
 
+    <!-- ComposeView for the TopSlider -->
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/composeViewTopSlider"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
 </FrameLayout>
