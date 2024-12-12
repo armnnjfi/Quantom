@@ -425,6 +425,15 @@
                 android:textColor="@color/black">
             </TextView>
         </LinearLayout>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="نسخه 1.0.0 (Beta)"
+            android:textSize="15sp"
+            android:textColor="@color/black">
+        </TextView>
     </LinearLayout>
 
 
