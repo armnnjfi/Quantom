@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
     // Existing plugins
-    alias(libs.plugins.compose.compiler) apply false
+    alias(libs.plugins.compose.compiler) apply true
 }
 
 android {
@@ -42,6 +42,7 @@ android {
         jvmTarget = "1.8"
     }
 }
+
 
 //.
 dependencies {
