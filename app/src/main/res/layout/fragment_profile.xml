@@ -3,13 +3,413 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/bg_gradient">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_gravity="top"
+           android:layout_marginEnd="20dp"
+          >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="ویرایش"
+               android:textSize="15sp"
+               android:textColor="@color/white"
+               android:textStyle="bold">
+
+           </TextView>
+
+           <View
+               android:layout_width="0dp"
+               android:layout_height="0dp"
+               android:layout_weight="1">
+
+           </View>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="نام کاربری"
+               android:textSize="15sp"
+               android:textColor="@color/white"
+               android:textStyle="bold">
+
+           </TextView>
+       </LinearLayout>
+    </Toolbar>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/circle_card"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="50dp"
+        android:background="@drawable/bg_gradient"
+        app:cardBackgroundColor="@android:color/white">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_gravity="center"
+           android:src="@drawable/account">
+
+       </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Profile Fragment"
-        android:gravity="center"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="امتیاز : 1000"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+        </TextView>
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center|start"
+            android:text="حساب کاربری"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#F6F6F6">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="تاریخچه امتیازات من"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="محتوای من"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="ماموریت های من"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center|start"
+            android:text= "تنظیمات"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#F6F6F6">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text=" زبان"
+                android:drawableRight="@drawable/baseline_language_24"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:id="@+id/switchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#000000"
+                android:trackTint="#FFFFFF" >
+            </Switch>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+
+                android:layout_marginEnd="55dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text=" صدا"
+                android:drawableRight="@drawable/baseline_volume_up_24"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#000000"
+                android:trackTint="#FFFFFF" >
+            </Switch>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+
+                android:layout_marginEnd="55dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text=" اعلان"
+                android:drawableRight="@drawable/baseline_notifications_24"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#000000"
+                android:trackTint="#FFFFFF" >
+            </Switch>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+
+                android:layout_marginEnd="55dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="حالت شب"
+                android:drawableRight="@drawable/baseline_mode_night_24"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center|start"
+            android:text= "کمک"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#F6F6F6">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="پشتیبانی"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="درباره ما"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="TODO"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:background="@color/white"
+                android:layout_marginLeft="5dp"
+                >
+
+            </ImageButton>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+            </View>
+            <TextView
+                android:layout_marginEnd="39dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center|start"
+                android:text="قوانین و شرایط"
+                android:textSize="15sp"
+                android:textColor="@color/black">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
 
 </LinearLayout>
