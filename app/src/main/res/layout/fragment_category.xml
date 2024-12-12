@@ -7,22 +7,39 @@
 
     <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#2A6D2C"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
-        />
-
-    <!-- Content Layout -->
-    <FrameLayout
-        android:id="@+id/content_frame"
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_height="wrap_content"
 
-    <!-- Bottom Navigation View, etc. -->
+        android:padding="16dp" />
+
+    <!-- Divider -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#88888888" />
+
+    <!-- TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="بازدید های اخیر"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:layout_marginEnd="10dp"/>
 
 </LinearLayout>
