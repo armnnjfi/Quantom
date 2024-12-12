@@ -1,8 +1,5 @@
 [versions]
-accompanistGlide = "1.0.0-beta01"
 agp = "8.5.2"
-coilCompose = "3.0.4"
-coilNetworkOkhttp = "3.0.4"
 compose = "1.0.0-beta01"
 composeBom = "2024.12.01"
 kotlin = "2.0.0"
