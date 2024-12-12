@@ -5,7 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.compose.foundation.layout.Column
+import androidx.compose.ui.platform.ComposeView
 import com.example.quantom.R
+import com.example.quantom.composes.GlideImageScreen
+import com.example.quantom.composes.TopSlider
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +39,14 @@ class HomeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val view = inflater.inflate(R.layout.fragment_home, container, false)
+        // Find the ComposeView and set content
+        val composeView = view.findViewById<ComposeView>(R.id.composeViewTopSlider)
+        composeView.setContent {
+            TopSlider()
+        }
+
+        return view
     }
 
     companion object {
