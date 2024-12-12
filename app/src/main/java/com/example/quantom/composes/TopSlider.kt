@@ -49,9 +49,9 @@ fun TopSlider(
     Column {
         val images = listOf(
             "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ABNnvjDbp7BCBRqFwC7rSQHaFK%26pid%3DApi&f=1&ipt=3ed341074aac836b760452a613ad4d0472cf6c85dbb4da98b3c83fa3b37fab2f&ipo=images",
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.E9CbzRVrJkewyhpgKoocggHaFS%26pid%3DApi&f=1&ipt=5d8722f0075b701920139139d8d6b376985b565bc2cbda8ed2a754c3394a4064&ipo=images",
-            "https://idc0-cdn0.khamenei.ir/ndata/home/1403/140309211549b070b.jpg",
-            "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.G59kgNr7hc5fIjkdePwcXwHaFE%26pid%3DApi&f=1&ipt=24bfeac08a83ff61db85b795690fb7825d7c457d157a7ef69ccaea9976ce3e65&ipo=images"
+            "https://7207-37-32-24-170.ngrok-free.app/get_photo/tttt.jpg",
+            "https://7207-37-32-24-170.ngrok-free.app/get_photo/tttt.jpg",
+            "https://7207-37-32-24-170.ngrok-free.app/get_photo/tttt.png"
         )
 
         ImageSlider(images)
