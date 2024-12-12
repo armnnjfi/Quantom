@@ -68,7 +68,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        >
 
         <TextView
             android:layout_marginTop="30dp"
@@ -95,7 +98,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -125,7 +129,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -155,7 +160,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -179,7 +185,8 @@
                 android:gravity="center|start"
                 android:text="ماموریت های من"
                 android:textSize="15sp"
-                android:textColor="@color/black">
+                android:textColor="@color/black"
+                >
             </TextView>
         </LinearLayout>
         <TextView
@@ -191,12 +198,14 @@
             android:textSize="15sp"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:background="#F6F6F6">
+            android:background="#F6F6F6"
+            android:layout_marginTop="20dp">
         </TextView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -227,7 +236,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <Switch
                 android:id="@+id/switchButton"
                 android:layout_width="wrap_content"
@@ -256,7 +266,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -284,7 +295,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -318,12 +330,14 @@
             android:textSize="15sp"
             android:textColor="@color/black"
             android:textStyle="bold"
-            android:background="#F6F6F6">
+            android:background="#F6F6F6"
+            android:layout_marginTop="20dp">
         </TextView>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -353,7 +367,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp">
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
