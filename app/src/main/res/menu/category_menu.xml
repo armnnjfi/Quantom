@@ -13,7 +13,7 @@
     <!-- Icon -->
     <item
         android:id="@+id/action_settings"
-        android:icon="@drawable/baseline_category_24"
+        android:icon="@drawable/headerlogoimage"
         android:title="Settings"
         app:showAsAction="always" />
 </menu>
