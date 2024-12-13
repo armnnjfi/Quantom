@@ -36,14 +36,14 @@ class HomeFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
+    ): View {
         val view = inflater.inflate(R.layout.fragment_home, container, false)
+
         // Find the ComposeView and set content
-//        val composeView = view.findViewById<ComposeView>(R.id.composeViewTopSlider)
-//        composeView.setContent {
-//            TopSlider()
-//        }
+        val composeView = view.findViewById<ComposeView>(R.id.composeViewTopSlider)
+        composeView.setContent {
+            TopSlider()
+        }
 
         return view
     }
