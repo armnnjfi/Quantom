@@ -181,7 +181,7 @@
                             android:padding="0dp">
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:src="@drawable/padcast"
+                                android:src="@drawable/one"
                                 android:layout_height="150dp"
                                 android:background="@drawable/rounded2_background"
                                 android:contentDescription="پادکست" />
@@ -227,7 +227,7 @@
                             android:padding="0dp">
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:src="@drawable/padcast"
+                                android:src="@drawable/two"
                                 android:layout_height="150dp"
                                 android:background="@drawable/rounded2_background"
                                 android:contentDescription="پادکست" />
@@ -347,7 +347,7 @@
                                 android:layout_width="35dp"
                                 android:layout_height="40dp"
                                 android:background="@drawable/rounded2_background"
-                                android:src="@drawable/bookarti"
+                                android:src="@drawable/one1"
                                 android:contentDescription="مقاله"
                                 android:layout_gravity="center_vertical"
                                 android:scaleType="fitCenter"
@@ -494,7 +494,7 @@
                                 android:padding="0dp">
                                 <ImageView
                                     android:layout_width="match_parent"
-                                    android:src="@drawable/padcast"
+                                    android:src="@drawable/one1"
                                     android:layout_height="150dp"
                                     android:background="@drawable/rounded2_background"
                                     android:contentDescription="پادکست" />
@@ -572,7 +572,7 @@
                                 android:padding="0dp">
                                 <ImageView
                                     android:layout_width="match_parent"
-                                    android:src="@drawable/padcast"
+                                    android:src="@drawable/two2"
                                     android:layout_height="150dp"
                                     android:background="@drawable/rounded2_background"
                                     android:contentDescription="پادکست" />
@@ -720,7 +720,7 @@
                                 android:padding="0dp">
                                 <ImageView
                                     android:layout_width="match_parent"
-                                    android:src="@drawable/padcast"
+                                    android:src="@drawable/two"
                                     android:layout_height="150dp"
                                     android:background="@drawable/rounded2_background"
                                     android:contentDescription="پادکست" />
@@ -767,7 +767,7 @@
                                 android:padding="0dp">
                                 <ImageView
                                     android:layout_width="match_parent"
-                                    android:src="@drawable/padcast"
+                                    android:src="@drawable/one"
                                     android:layout_height="150dp"
                                     android:background="@drawable/rounded2_background"
                                     android:contentDescription="پادکست" />
