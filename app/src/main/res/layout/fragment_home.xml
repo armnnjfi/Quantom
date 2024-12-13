@@ -75,6 +75,8 @@
                     />
 
                 <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:layout_width="130dp"
                     android:layout_height="40dp"
                     android:layout_gravity="end"
@@ -137,6 +139,7 @@
                                 android:layout_width="match_parent"
                                 android:src="@drawable/padcast"
                                 android:layout_height="150dp"
+
                                 android:background="@drawable/rounded2_background"
                                 android:contentDescription="پادکست" />
 
@@ -147,6 +150,9 @@
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/vazirlight"
                                 android:text="نام پادکست"
+
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
                                 android:textColor="@color/white"
                                 android:textSize="14sp"
                                 android:gravity="center"
@@ -157,6 +163,9 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
                                 android:text="تولید کننده"
+
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
                                 android:textSize="14sp"
                                 android:gravity="center"
                                 android:padding="0dp" />
@@ -193,7 +202,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/vazirlight"
-                                android:text="نام پادکست"
+                                android:text="سخنرانی حجت الاسلام "
+
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
                                 android:textColor="@color/white"
                                 android:textSize="14sp"
                                 android:gravity="center"
@@ -203,7 +215,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
-                                android:text="تولید کننده"
+                                android:text="آرمان نجفی"
+
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
                                 android:textSize="14sp"
                                 android:gravity="center"
                                 android:padding="0dp" />
@@ -239,7 +254,10 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/vazirlight"
-                                android:text="نام پادکست"
+                                android:text="غوطه در غرق "
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:paddingBottom="10dp"
                                 android:textColor="@color/white"
                                 android:textSize="14sp"
                                 android:gravity="center"
@@ -249,7 +267,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/white"
-                                android:text="تولید کننده"
+                                android:text=" معین برزگر"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
                                 android:textSize="14sp"
                                 android:gravity="center"
                                 android:padding="0dp" />
@@ -293,6 +313,8 @@
                     />
 
                 <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:layout_width="125dp"
                     android:layout_height="40dp"
                     android:layout_gravity="end"
@@ -367,7 +389,10 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
-                                    android:text="نام مقاله"
+                                    android:text="به سوی آسمان"
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     android:textStyle="bold" />
@@ -376,10 +401,12 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
-                                    android:text="نام نویسنده"
+                                    android:text="حجت الاسلام "
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:textColor="@color/white"
-                                    android:textSize="12sp"
-                                    android:layout_marginTop="2dp" />
+                                    android:textSize="12sp" />
                             </LinearLayout>
 
                             <!-- بخش توضیحات -->
@@ -428,7 +455,10 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
-                                    android:text="نام مقاله"
+                                    android:text="وعده صادق 2"
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     android:textStyle="bold" />
@@ -437,10 +467,11 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
-                                    android:text="نام نویسنده"
+                                    android:text="علی رحمتی"
+                                    android:layout_marginBottom="5dp"
                                     android:textColor="@color/white"
                                     android:textSize="12sp"
-                                    android:layout_marginTop="2dp" />
+                                    android:layout_marginTop="5dp" />
                             </LinearLayout>
 
                             <!-- بخش توضیحات -->
@@ -492,6 +523,8 @@
                 <TextView
                     android:layout_width="130dp"
                     android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:text="ویدیو"
                     android:fontFamily="@font/vazirthin"
                     android:textSize="18sp"
@@ -587,7 +620,10 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@font/vazirlight"
-                                            android:text="نام مقاله"
+                                            android:text="پشت صحنه اغتشاش"
+
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="5dp"
                                             android:textColor="@color/white"
                                             android:textSize="14sp"
                                             android:textStyle="bold" />
@@ -596,10 +632,11 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@font/vazirlight"
-                                            android:text="نام نویسنده"
+                                            android:text="تولید شده توسط انجمن رضوی"
                                             android:textColor="@color/white"
-                                            android:textSize="12sp"
-                                            android:layout_marginTop="2dp" />
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="5dp"
+                                            android:textSize="12sp" />
                                     </LinearLayout>
 
                                     <!-- بخش توضیحات -->
@@ -664,19 +701,23 @@
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@font/vazirlight"
-                                            android:text="نام مقاله"
+                                            android:text="سخنرانی ایت الله خامنهای "
                                             android:textColor="@color/white"
                                             android:textSize="14sp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="5dp"
                                             android:textStyle="bold" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:fontFamily="@font/vazirlight"
-                                            android:text="نام نویسنده"
+                                            android:text="علی تقوی"
+
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="5dp"
                                             android:textColor="@color/white"
-                                            android:textSize="12sp"
-                                            android:layout_marginTop="2dp" />
+                                            android:textSize="12sp" />
                                     </LinearLayout>
 
                                     <!-- بخش توضیحات -->
@@ -685,10 +726,12 @@
                                         android:layout_height="wrap_content"
                                         android:layout_weight="2"
                                         android:fontFamily="@font/vazirlight"
-                                        android:text="توضیحات مقاله که میتونه توی دو خط باشه.."
+                                        android:text=" ویدیو سخنرانی ایت الله حامنه ای "
                                         android:textColor="@color/white"
                                         android:textSize="12sp"
                                         android:gravity="center_vertical"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginBottom="5dp"
                                         android:layout_marginRight="10dp" />
                                 </LinearLayout>
                             </LinearLayout>
@@ -712,6 +755,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:layout_marginTop="0dp"
+                        android:paddingTop="10dp"
                         android:text="بیشتر"
                         android:gravity="center"
                         android:textSize="14sp"
@@ -727,6 +771,8 @@
                         />
                     <TextView
                         android:layout_width="130dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
                         android:layout_height="40dp"
                         android:text="عکس"
                         android:fontFamily="@font/vazirthin"
@@ -784,6 +830,8 @@
                                     android:layout_width="match_parent"
                                     android:src="@drawable/two"
                                     android:layout_height="150dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:background="@drawable/rounded2_background"
                                     android:contentDescription="پادکست" />
 
@@ -793,17 +841,20 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
-                                    android:text="نام عکس"
+                                    android:text="غوظه در غرق "
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     android:gravity="center"
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:padding="0dp" />
                                 <!-- TextView: تولید کننده -->
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:textColor="@color/white"
-                                    android:text="تولید کننده"
+                                    android:text="معین برزگر "
                                     android:textSize="14sp"
                                     android:gravity="center"
                                     android:padding="0dp" />
@@ -840,7 +891,9 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
-                                    android:text="نام عکس"
+                                    android:text="حجت الاسلام زمانی"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     android:gravity="center"
@@ -850,8 +903,11 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:textColor="@color/white"
-                                    android:text="تولید کننده"
+                                    android:text=" تولید شده توسط انجمن امام صادق"
                                     android:textSize="14sp"
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:gravity="center"
                                     android:padding="0dp" />
                             </LinearLayout>
@@ -887,6 +943,9 @@
                                     android:layout_height="wrap_content"
                                     android:fontFamily="@font/vazirlight"
                                     android:text="نام عکس"
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:textColor="@color/white"
                                     android:textSize="14sp"
                                     android:gravity="center"
@@ -897,6 +956,9 @@
                                     android:layout_height="wrap_content"
                                     android:textColor="@color/white"
                                     android:text="تولید کننده"
+
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="5dp"
                                     android:textSize="14sp"
                                     android:gravity="center"
                                     android:padding="0dp" />
