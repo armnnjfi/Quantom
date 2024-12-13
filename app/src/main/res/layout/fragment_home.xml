@@ -22,6 +22,7 @@
                 android:layout_margin="0dp">
                 <ImageView
                     android:layout_width="match_parent"
+                    android:layout_marginTop="30dp"
                     android:src="@drawable/headerlogoimage"
                     android:layout_height="70dp"
                     android:contentDescription="پادکست" />
@@ -59,7 +60,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_marginTop="0dp"
-                    android:text="مشاهده همه..."
+                    android:text="بیشتر "
                     android:gravity="center"
                     android:textSize="14sp"
                     android:fontFamily="@font/vazir"
@@ -277,7 +278,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_marginTop="0dp"
-                    android:text="مشاهده همه..."
+                    android:text=" بیشتر "
                     android:gravity="center"
                     android:textSize="14sp"
                     android:textColor="#2C814E"
@@ -393,6 +394,67 @@
                                 android:gravity="center_vertical"
                                 android:layout_marginRight="10dp" />
                         </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:background="@drawable/rounded2_background"
+                            android:elevation="0dp"
+                            android:padding="8dp"
+                            android:layout_marginBottom="8dp"
+                            android:layoutDirection="rtl">
+
+                            <!-- بخش تصویر -->
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="40dp"
+                                android:background="@drawable/rounded2_background"
+                                android:src="@drawable/bookarti"
+                                android:contentDescription="مقاله"
+                                android:layout_gravity="center_vertical"
+                                android:scaleType="fitCenter"
+                                android:clipToOutline="true"
+                                android:layout_marginLeft="10dp" />
+
+                            <!-- بخش متن -->
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/vazirlight"
+                                    android:text="نام مقاله"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/vazirlight"
+                                    android:text="نام نویسنده"
+                                    android:textColor="@color/white"
+                                    android:textSize="12sp"
+                                    android:layout_marginTop="2dp" />
+                            </LinearLayout>
+
+                            <!-- بخش توضیحات -->
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"
+                                android:fontFamily="@font/vazirlight"
+                                android:text="توضیحات مقاله که میتونه توی دو خط باشه.."
+                                android:textColor="@color/white"
+                                android:textSize="12sp"
+                                android:gravity="center_vertical"
+                                android:layout_marginRight="10dp" />
+                        </LinearLayout>
                     </LinearLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -414,7 +476,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
                     android:layout_marginTop="0dp"
-                    android:text="مشاهده همه..."
+                    android:text=" بیشتر"
                     android:gravity="center"
                     android:textSize="14sp"
                     android:textColor="#2C814E"
@@ -650,7 +712,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="30dp"
                         android:layout_marginTop="0dp"
-                        android:text="مشاهده همه..."
+                        android:text="بیشتر"
                         android:gravity="center"
                         android:textSize="14sp"
                         android:textColor="#2C814E"
@@ -666,7 +728,7 @@
                     <TextView
                         android:layout_width="130dp"
                         android:layout_height="40dp"
-                        android:text="پوستر و عکس"
+                        android:text="عکس"
                         android:fontFamily="@font/vazirthin"
                         android:textSize="18sp"
                         android:textColor="#ffff"

@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:padding="50dp"
             android:layout_height="wrap_content"
-            android:text="عنوان وظیفه"
+            android:text="وظیفه در حال اجرا "
             android:textSize="18dp"
             android:gravity="center"
             android:fontFamily="@font/vazirmedium"
@@ -28,17 +28,27 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="130dp"
         android:orientation="horizontal">
 
+
+        <ImageView
+            android:layout_width="100dp"
+            android:paddingLeft="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:contentDescription="caver" />
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="50dp"
+            android:paddingRight="10dp"
             android:text="2 از 10 کامل شده اند"
-            android:gravity="center"
+            android:gravity="right"
             android:fontFamily="@font/vazirbold"
             android:textSize="20dp"
             />
+
 
 
     </LinearLayout>
