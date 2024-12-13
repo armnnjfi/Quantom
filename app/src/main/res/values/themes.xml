@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="Base.Theme.Quantom" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Light Theme Colors -->
+        <item name="colorPrimary">#329664</item>
+        <item name="colorPrimaryContainer">#64C896</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+
+        <!-- For Buttons -->
+        <item name="colorSecondary">#329664</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+
+        <!-- For Cards -->
+        <item name="colorSurface">#64C896</item>
+        <item name="colorOnSurface">#000000</item>
     </style>
 
+    <!-- Application Theme -->
     <style name="Theme.Quantom" parent="Base.Theme.Quantom" />
 </resources>

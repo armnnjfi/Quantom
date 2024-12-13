@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.compose.ui.platform.ComposeView
 import com.example.quantom.R
+import com.example.quantom.composes.Javayez
 import com.example.quantom.composes.TopSlider
 
 // TODO: Rename parameter arguments, choose names that match

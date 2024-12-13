@@ -4,12 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#fff">
-    <!-- ComposeView for the TopSlider -->
-<!--    <androidx.compose.ui.platform.ComposeView-->
-<!--        android:id="@+id/composeViewTopSlider"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="200dp"-->
-<!--        android:layout_gravity="center" />-->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -29,18 +24,17 @@
                 android:text="اپلیکیشن رسا"
                 android:textColor="#000000"
                 android:textSize="20sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"/>
 
             <!-- Banner -->
 
             <!-- Podcasts Section -->
-            <ImageView
-                android:id="@+id/bannerImage"
+            <androidx.compose.ui.platform.ComposeView
+                android:id="@+id/composeViewTopSlider"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_marginTop="16dp"
-                android:background="#86A886"
-                android:contentDescription="بنر" />
+                android:layout_gravity="center" />
 
             <LinearLayout
                 android:layout_width="match_parent"

@@ -53,7 +53,7 @@ fun TopSlider(
             "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ABNnvjDbp7BCBRqFwC7rSQHaFK%26pid%3DApi&f=1&ipt=3ed341074aac836b760452a613ad4d0472cf6c85dbb4da98b3c83fa3b37fab2f&ipo=images",
             stringResource(R.string.ngrok_address) + "tttt.jpg",
             stringResource(R.string.ngrok_address) + "test1.jpg",
-            stringResource(R.string.ngrok_address) + "tttt.png"
+            stringResource(R.string.ngrok_address) + "photo_1@12-12-2024_18-03-49.jpg"
         )
 
         ImageSlider(images)
