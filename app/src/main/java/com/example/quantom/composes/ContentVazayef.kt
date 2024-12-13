@@ -1,6 +1,8 @@
 package com.example.quantom.composes
 
+import android.content.Intent
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -23,6 +25,8 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.content.ContextCompat.startActivity
+import com.example.quantom.fragments.DoingTaskFragment
 import com.example.quantom.ui.theme.GreenPrimary
 
 @Composable
@@ -47,7 +51,10 @@ fun ContentVazayef(){
 @Composable
 fun Part1Vazayef() {
     Card(modifier = Modifier
-        .fillMaxWidth()
+        .fillMaxWidth().clickable {
+            val intent = Intent(this,DoingTaskFragment ::class.java)
+            startActivity(intent)
+        }
         ) {
         Row (modifier = Modifier
             .fillMaxWidth()
