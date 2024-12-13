@@ -1,49 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="170dp"
         android:background="@drawable/bg_gradient">
-       <LinearLayout
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:orientation="horizontal"
-           android:layout_marginEnd="20dp"
-           android:layout_marginBottom="100dp"
-          >
-           <TextView
-               android:id="@+id/edit"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="ویرایش"
-               android:textSize="15sp"
-               android:textColor="@color/white"
-               android:textStyle="bold">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="100dp"
+            >
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ویرایش"
+                android:textSize="15sp"
+                android:fontFamily="@font/vazirlight"
+                android:textColor="@color/white"
+                android:textStyle="bold">
 
-           </TextView>
+            </TextView>
 
-           <View
-               android:layout_width="0dp"
-               android:layout_height="0dp"
-               android:layout_weight="1">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1">
 
-           </View>
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="نام کاربری"
-               android:textSize="15sp"
-               android:textColor="@color/white"
-               android:textStyle="bold">
+            </View>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نام کاربری"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/vazirlight"
+                android:textStyle="bold">
 
-           </TextView>
-       </LinearLayout>
+            </TextView>
+        </LinearLayout>
     </Toolbar>
     <androidx.cardview.widget.CardView
         android:id="@+id/circle_card"
@@ -56,13 +61,13 @@
         android:background="@drawable/bg_gradient"
         app:cardBackgroundColor="@android:color/white">
 
-       <ImageView
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"
-           android:layout_gravity="center"
-           android:src="@drawable/account">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/account">
 
-       </ImageView>
+        </ImageView>
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
@@ -78,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:fontFamily="@font/vazirlight"
             android:text="امتیاز : 1000"
             android:textSize="15sp"
             android:textColor="@color/black"
@@ -89,6 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:gravity="center|start"
+            android:fontFamily="@font/vazirlight"
             android:text="حساب کاربری"
             android:textSize="15sp"
             android:textColor="@color/black"
@@ -121,6 +128,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:gravity="center|start"
+                android:fontFamily="@font/vazirlight"
                 android:text="تاریخچه امتیازات من"
                 android:textSize="15sp"
                 android:textColor="@color/black">
@@ -152,6 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:gravity="center|start"
+                android:fontFamily="@font/vazirlight"
                 android:text="محتوای من"
                 android:textSize="15sp"
                 android:textColor="@color/black">
@@ -186,6 +195,7 @@
                 android:text="ماموریت های من"
                 android:textSize="15sp"
                 android:textColor="@color/black"
+                android:fontFamily="@font/vazirlight"
                 >
             </TextView>
         </LinearLayout>
@@ -195,6 +205,7 @@
             android:layout_height="30dp"
             android:gravity="center|start"
             android:text= "تنظیمات"
+            android:fontFamily="@font/vazirlight"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:textStyle="bold"
@@ -230,6 +241,7 @@
                 android:text=" زبان"
                 android:drawableRight="@drawable/baseline_language_24"
                 android:textSize="15sp"
+                android:fontFamily="@font/vazirlight"
                 android:textColor="@color/black">
             </TextView>
         </LinearLayout>
@@ -258,6 +270,7 @@
                 android:layout_height="30dp"
                 android:gravity="center|start"
                 android:text=" صدا"
+                android:fontFamily="@font/vazirlight"
                 android:drawableRight="@drawable/baseline_volume_up_24"
                 android:textSize="15sp"
                 android:textColor="@color/black">
@@ -287,6 +300,7 @@
                 android:layout_height="30dp"
                 android:gravity="center|start"
                 android:text=" اعلان"
+                android:fontFamily="@font/vazirlight"
                 android:drawableRight="@drawable/baseline_notifications_24"
                 android:textSize="15sp"
                 android:textColor="@color/black">
@@ -316,6 +330,7 @@
                 android:layout_height="30dp"
                 android:gravity="center|start"
                 android:text="حالت شب"
+                android:fontFamily="@font/vazirlight"
                 android:drawableRight="@drawable/baseline_mode_night_24"
                 android:textSize="15sp"
                 android:textColor="@color/black">
@@ -328,6 +343,7 @@
             android:gravity="center|start"
             android:text= "کمک"
             android:textSize="15sp"
+            android:fontFamily="@font/vazirlight"
             android:textColor="@color/black"
             android:textStyle="bold"
             android:background="#F6F6F6"
@@ -361,6 +377,7 @@
                 android:gravity="center|start"
                 android:text="پشتیبانی"
                 android:textSize="15sp"
+                android:fontFamily="@font/vazirlight"
                 android:textColor="@color/black">
             </TextView>
         </LinearLayout>
@@ -391,6 +408,7 @@
                 android:layout_height="30dp"
                 android:gravity="center|start"
                 android:text="درباره ما"
+                android:fontFamily="@font/vazirlight"
                 android:textSize="15sp"
                 android:textColor="@color/black">
             </TextView>
@@ -438,3 +456,6 @@
 
 
 </LinearLayout>
+
+
+</ScrollView>
