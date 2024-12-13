@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="7dp" /> <!-- مقدار گردی گوشه‌ها -->
+
+    <gradient
+        android:angle="0"
+        android:endColor="#329664"
+        android:startColor="#329664"
+        android:type="linear" /> <!-- رنگ پس‌زمینه -->
+    <stroke
+        android:width="2dp"
+        android:color="#329664"
+        /> <!-- خط دور -->
+</shape>
