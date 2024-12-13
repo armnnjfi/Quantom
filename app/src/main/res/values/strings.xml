@@ -2,5 +2,5 @@
     <string name="app_name">quantom</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="ngrok_address">https://0410-37-32-24-170.ngrok-free.app/get_photo/</string>
+    <string name="ngrok_address">http://37.32.24.170:8000/get_photo/</string>
 </resources>

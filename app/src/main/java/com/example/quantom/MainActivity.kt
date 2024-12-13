@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun bindViews() {
-        bottomNavigation = findViewById(R.id.bottomNavigationView)
+        bottomNavigation = findViewById(R.id.bottom_navigation)
 
     }
 

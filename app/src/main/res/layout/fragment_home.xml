@@ -4,12 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#fff">
-    <!-- ComposeView for the TopSlider -->
-<!--    <androidx.compose.ui.platform.ComposeView-->
-<!--        android:id="@+id/composeViewTopSlider"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="200dp"-->
-<!--        android:layout_gravity="center" />-->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -46,13 +41,10 @@
             <!-- Banner -->
 
             <!-- Podcasts Section -->
-            <ImageView
-                android:id="@+id/bannerImage"
+            <androidx.compose.ui.platform.ComposeView
+                android:id="@+id/composeViewTopSlider"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:layout_marginTop="16dp"
-                android:background="#86A886"
-                android:contentDescription="بنر" />
+                android:layout_height="200dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -80,20 +72,21 @@
                     android:layout_weight="1"
 
                     />
+
                 <TextView
                     android:layout_width="130dp"
-                    android:layout_height="match_parent"
-                    android:text="پادکست ها"
-                    android:fontFamily="@font/vazirthin"
-                    android:textSize="18sp"
-                    android:textColor="#ffff"
-                    android:textStyle="bold"
+                    android:layout_height="40dp"
                     android:layout_gravity="end"
+                    android:background="@drawable/rounded2_background"
+                    android:fontFamily="@font/vazirthin"
                     android:gravity="center"
-                    android:textAlignment="center"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
-                    android:background="@drawable/rounded2_background"
+                    android:text="پادکست ها"
+                    android:textAlignment="center"
+                    android:textColor="#ffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
 
                     />
 
@@ -300,7 +293,7 @@
 
                 <TextView
                     android:layout_width="125dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:layout_gravity="end"
                     android:background="@drawable/rounded2_background"
                     android:fontFamily="@font/vazirthin"
@@ -312,6 +305,7 @@
                     android:textColor="#ffff"
                     android:textSize="18sp"
                     android:textStyle="bold"
+
 
                     />
 
@@ -435,7 +429,7 @@
                     />
                 <TextView
                     android:layout_width="130dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="40dp"
                     android:text="ویدیو"
                     android:fontFamily="@font/vazirthin"
                     android:textSize="18sp"
@@ -671,7 +665,7 @@
                         />
                     <TextView
                         android:layout_width="130dp"
-                        android:layout_height="match_parent"
+                        android:layout_height="40dp"
                         android:text="پوستر و عکس"
                         android:fontFamily="@font/vazirthin"
                         android:textSize="18sp"
