@@ -51,10 +51,7 @@ fun ContentVazayef(){
 @Composable
 fun Part1Vazayef() {
     Card(modifier = Modifier
-        .fillMaxWidth().clickable {
-            val intent = Intent(this,DoingTaskFragment ::class.java)
-            startActivity(intent)
-        }
+        .fillMaxWidth()
         ) {
         Row (modifier = Modifier
             .fillMaxWidth()
